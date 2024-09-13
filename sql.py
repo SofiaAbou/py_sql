@@ -6,13 +6,13 @@ try:
         host="localhost",
         user="root",
         password="",
-        database="py_sql"
+        database="py_sql1"
     )
 
     cursor = db.cursor()
 
     # Creare il database se non esiste
-    #cursor.execute("CREATE DATABASE py_sql")
+    #cursor.execute("CREATE DATABASE py_sql1")
 
     # Creazione delle tabelle
     cursor.execute("""
